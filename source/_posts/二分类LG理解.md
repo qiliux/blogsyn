@@ -8,7 +8,9 @@ tags:
 ---
 
 LG:Logistic Regression  
+=============
 Logistic 函数：  
+-------------
 　　s型函数（sigmod函数），单调函数，处处可微，$1-h(x) = h(-x)$  
 　　$\theta(s)=\frac{e^s}{e^s+1}\\\\
 　　=\frac{1}{1+e^{-s}} （y值缩放）$  
