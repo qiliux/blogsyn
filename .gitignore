@@ -1,0 +1,7 @@
+.DS_Store
+.idea/
+*.log
+*.iml
+.deploy_git
+public/
+node_modules/

@@ -4,7 +4,8 @@ date: 2017-04-29 16:48:07
 tags:
 - 机器学习
 - math
-
+categories:
+- 机器学习
 ---
 
 LG:Logistic Regression  
