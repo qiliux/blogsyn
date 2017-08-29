@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "七柳先森,可视化,python,django,vue"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -20,7 +20,7 @@ rss:
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 
 # ---------------------------------------------------------------
@@ -33,11 +33,11 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 
 # ---------------------------------------------------------------
@@ -47,8 +47,6 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  django: /django
-  vue: /vue
   categories: /categories/
   archives: /archives/
   tags: /tags/
@@ -65,8 +63,6 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  django: thumbs-o-up
-  vue: tree
   about: user
   categories: th
   schedule: calendar
@@ -185,7 +181,7 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -200,7 +196,7 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
@@ -236,7 +232,7 @@ post_copyright:
 # ---------------------------------------------------------------
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: 
 
 # Android Chrome header panel color ($black-deep).
 android_chrome_color: "#222"
@@ -337,9 +333,9 @@ disqus:
 
 # changyan
 changyan:
-  enable: false
-  appid:
-  appkey:
+  enable: true
+  appid: cytbe85dW
+  appkey: 117f8be6ea76ff823c78bb8a671c5388
 
     
 # Valine. 
@@ -406,8 +402,6 @@ duoshuo_info:
   user_id: 0
   #admin_nickname: Author
 
-
-
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
@@ -439,22 +433,22 @@ vkontakte_api:
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
+  id:    8j7Tk1pkdAC9PDnAJmlaSDjO-gzGzoHsz
   color:  fc6423
 
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: 8j7Tk1pkdAC9PDnAJmlaSDjO-gzGzoHsz
+  app_key: 9Ep9pmsJf5j1GQ1XhOxc4Tsn
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>

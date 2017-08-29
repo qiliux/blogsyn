@@ -72,6 +72,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: git@github.com:qiliux/qiliux.github.io.git
+  repo: git@47.94.2.46:/opt/blog-hexo/bloghexo.git
   branch: master
   message: '站点更新:{{now("YYYY-MM-DD HH/mm/ss")}}'
